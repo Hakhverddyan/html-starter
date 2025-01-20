@@ -1,96 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
-  </head>
-  <body>
-<!--     <h1>Vercel HTML Starter</h1> -->
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V դպրոց</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel='shortcut icon' sizes="184x184" type='image/x-icon' href='images/lo.png'>
+    <link href="css/tiny-slider.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation bar">
+		<div class="container">
+			<a class="navbar-brand">
+                <img src="images/unnamed.jpg" alt="Logo" style="width: 150px; height: auto; margin-left: -20px; margin-top: -13px;">
+            </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarsFurni" style="font-size: 15px">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item" ">
+						<a class="nav-link" href="index.html">Գլխավոր</a>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="about.html">Մեր մասին</a></li>
+					<li class="nav-item"><a class="nav-link" href="services.html">Հոսքեր</a></li>
+					<li class="nav-item"><a class="nav-link" href="blog.html">ՄԵր առօրյան</a></li>
+					<!-- <li class="nav-item"><a class="nav-link" href="mij.html">Միջոցառումներ</a></li> -->
+					<!-- <li class="nav-item"><a class="nav-link" href="hash.ht0ml">Հաշվետվություններ</a></li> -->
+					<li class="nav-item"><a class="nav-link" href="hayt.html">Հայտարարություններ</a></li>
+					<li class="nav-item active"><a class="nav-link" href="Contactus.html">Հետադարձ կապ</a></li>
+				</ul>
+			</div>
+		</div>  
+	</nav>
+ 
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5">
+                    <div class="intro-excerpt">
+                        <p class="textr"><<Վաղարշապատի Մաքսիմ Գորկու<br> անվան համար 5 ավագ դպրոց>> ՊՈԱԿ</p>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="hero-img-wrap">
+                        <img src="images/IMG_9575 (1).jpeg" class="img-flluid" alt="Hero Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 1 -->
+    <div class="why-choose-section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-6">
+                    <h2 class="section-title title5" data-language data-key="title5">Դպրոցի պատմություն</h2>
+                    <p class="" data-language data-key="text5">Դպրոցը հիմնադրվել է 1940 թվականին՝ կապված Հայրենական մեծ պատերազմի շեմին Էջմիածնում ծառայող ռուս զինվորականների ընտանիքների՝ Հայաստան տեղափոխման հետ:</p>
+                    <div class="row my-5">
+                        <div class="col-6 col-md-6">
+                            <div class="feature">
+                                <p class="" data-language data-key="text6">1941-1942 ուստարում ռուսական սեկտորը տեղափոխվում է նախկին երաժշտական դպրոցի տարածք՝ Արարատյան փողոցի վրա: 1956 թվականին դպրոցն անվանակոչվում է Մաքսիմ Գորկու անունով:</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <div class="feature">
+                                <p class="" data-language data-key="text7">Հետո դպրոցը գործում է որպես հմ. 3 միջնակարգ դպրոցի մասնաճյուղ, տնօրեն է նշանակվում Արուս Հովհաննիսյանը, իսկ 1944 թվականից՝ Մնացական Սամսոնի Հարությունյանը:</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <div class="feature">
+                                <p class="" data-language data-key="text8">1948 թ–ին դպրոցը նորից տեղափոխվում է հմ. 1 միջնակարգ դպրոցի տարածք, որը տեղակայված էր այժմյան հոգևոր ճեմարանի տարածքում:</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <div class="feature">
+                                <p class="" data-language data-key="text9">1954 թվականին Էջմիածնի շրջանային գործադիր կոմիտեի որոշումով առանձնանում է ռուսական դպրոցը՝ 12 դասարանով և 285 սովորողներով: Ալինա Գրիգորի Բալագյոզյանը նշանակվում է տնօրեն, իսկ Գալինա Խաչատուրի Գասպարյանը՝ փոխտնօրեն:</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="img-wrap">
+                        <img src="images/5imh.jpg" alt="School History Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="we-help-section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-7 mb-5 mb-lg-0">
+                    <div class="imgs-grid">
+                        <div class="grid grid-1"><img src="images/IMG_9583.jpg" alt="Image" class="img-fluid"></div>
+                    </div>
+                </div>
+                <div class="col-lg-5 ps-lg-5">
+                    <h2 class="section-title mb-4 title10" data-language data-key="title10">Հինգերորդ դպրոցի հիմնը</h2>
+                    <p class="" data-language data-key="text10">
+                        Հայրենի հողիս դպրության սուրբ խորան,<br>
+                        Լույս սերունդների ճանապարհին վառ փարոս,<br>
+                        Միտք ու կամք  ես դու կռում,<br>
+                        Թև ես պարգևում դու մեզ, որ շատ վեր սլանանք։
+                    </p>
+                    <p>
+                        Հինգերրոդ դպրոց, մեր մանկության օրրան,<br>
+                        Մեր վառ երազների շենշող հանգրվան,<br>
+                        Մայրական ջերմ գիրկ, կանչող կոչնակ անուշահունչ,<br>
+                        Վեհ խրախճանքի համար՝ հայացքով պահապան։
+                    </p>
+                    <p>
+                        Խորհուրդ ու պատգամ բերող մտքի սերմնացան,<br>
+                        Անխոնջ կջանան սփռել լուսավոր միտք ու սեր,<br>
+                        Ծառայել Հայոց երկրին հինավուրց ու սրբազան,<br>
+                        Արժանի հետևորդ դառանալ փառքին մեր հայրենաց։
+                    </p>
+                    <p>
+                        Մաշտոցի ժառանգ Հայոց սան ու ուսուցիչ,<br>
+                        Ուխտենք միակամ լինել սուրբ երդմամբ նվիրյալ,<br>
+                        Ճանաչել զիմաստություն և զբանս հանճարոյ,<br>
+                        Միշտ վառ պահելով լուսավառ ջահը դպրության։
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
