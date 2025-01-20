@@ -1,0 +1,9 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Website",
+  "name": "Ваш сайт",
+  "url": "https://вашдомен.com",
+  "description": "Описание сайта"
+}
+</script>

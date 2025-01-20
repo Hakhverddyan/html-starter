@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vagarshabat5high.am/sitemap.xml
